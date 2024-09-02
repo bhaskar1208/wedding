@@ -380,11 +380,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 600;
 }
 #fh5co-event .invitation img{
-  width:100%;
+  width:70%;
   height: 500px;
-  border-radius: 10px;
   position: relative !important;
-  border: 2px dotted green;
   margin-top: 30px;
 }
 #fh5co-event .invitation iframe{
