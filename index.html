@@ -31,7 +31,7 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 	</head>
-	<body>
+	<body onload="playAudio()">
 		
 	<div class="fh5co-loader"></div>
 	
@@ -216,6 +216,10 @@
         month: d.getMonth() + 1,
         day: d.getDate()
     });
+	function playAudio(){
+	    	let audio=new Audio("media/background.mp3");
+	    	audio.play();
+    	}
 </script>
 
 	</body>
